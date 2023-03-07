@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+    <link rel="stylesheet" href="form_register.css">
+    
+</head>
+<body>
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage();">Click Me!</button><br>
+    <button type="button" onclick="inerMessage();">innerHTML</button><br>
+    <button type="button" onclick="showDocument();">Showdocument</button><br>
+    <button type="button" onclick="ussingConsolog();">Console</button>
+<script>
+    function showMessage(){
+        alert('Xin chào!');
+    }
+
+    function inerMessage(){
+        document.getElementById('messageDiv').innerHTML = "XInnnn chaooo"
+    }
+
+    function showDocument(){
+        document.write('HHHHHHH!');
+    }
+
+    function ussingConsolog(){
+        console.log('12312312');
+    }
+</script>  
+</body>
+</htmL> 
